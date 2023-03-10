@@ -4,10 +4,10 @@ import logging
 from aiogram import Bot, Dispatcher, executor, types
 
 
-TOKEN = '6002247527:AAEtnfcpBJRIzkijw8N8SdMO7F8tXNoLqQU'
+GITHUB_TOKEN = '6002247527:AAEtnfcpBJRIzkijw8N8SdMO7F8tXNoLqQU'
 MESSAGE = "Have you programming today, {user_name}?"
 
-bot = Bot(token=TOKEN)
+bot = Bot(token=GITHUB_TOKEN)
 dp = Dispatcher(bot=bot)
 
 
